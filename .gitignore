@@ -8,3 +8,14 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Large model files and checkpoints
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.msgpack
+distilbert-base-uncased-finetuned-emotion/
+model_2/
+trainer/
+
